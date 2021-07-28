@@ -6,47 +6,309 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet"/>
     <link rel="shortcut icon" href="../images/favicon.ico" />
-    <link rel="stylesheet" href="/css/style.css" />
-    <link
-      rel="stylesheet"
-      href="/vendors/icon/fontawesome-free-5.15.3-web/css/all.css"
-    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link href="../vendors/icon/fontawesome-free-5.15.3-web/css/all.css" rel="stylesheet">
     <title>Home</title>
-    <!-- <script src="/vendors/js/click.js"></script>
-    <link rel="stylesheet" href="/vendors/css/user_select.css" />
-    <script src="/vendors/js/user_select.js"></script> -->
   </head>
   <body>
     <header class="header">
       <div class="header__logo-box">
-        <img src="/images/logo.png" alt="logo" class="header__logo" />
+        <a href="#"><img src="../images/logo_car.png" alt="logo"></a>
       </div>
       <nav class="header__nav-box">
         <ul class="header__nav-box--main">
-          <li><a target="black" href="#">Trang chủ</a></li>
-          <li><a target="black" href="#">Liên hệ</a></li>
-          <li><a target="black" href="#">Sản Phẩm</a></li>
-          <li><a target="black" href="#">Hỗ Trợ</a></li>
+          <li><a target="black" href="#">home</a></li>
+          <li><a target="black" href="#">pages</a></li>
+          <li><a target="black" href="#">booking</a></li>
+          <li><a target="black" href="#">contact</a></li>
           <li>
-            <a href="#">More<i class="fas fa-caret-down"></i></a>
+            <a href="#">pages<i class="fas fa-caret-down"></i></a>
             <ul class="header__nav-box--sub">
-              <li><a href="#">Khuyến Mãi</a></li>
-              <li><a href="#">Chính Sách</a></li>
-              <li><a href="#">Báo Cáo</a></li>
+              <li><a href="#">about us</a></li>
+              <li><a href="#">policy</a></li>
+              <li><a href="#">report</a></li>
             </ul>
           </li>
         </ul>
       </nav>
-      <div class="header__btn-search">
-        <i class="header__btn-search--icon fas fa-search"></i>
+      <div class="header__icon">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-linkedin"></i>
+        <i class="fas fa-search"></i>
       </div>
     </header>
-    <div class="background">
+    <!-- BACKGROUND -->
+    <section class="background-us">
+      <h3 class="heading-primary--main">WE LOVE YOUR CAR</h3>
+      <h4 class="heading-primary--sub">helo</h4>
+    </section>
+    <!-- INFORMATION -->
+    <section class="setion-info">
+      <h4 class="text-title">WHO IS AUTOSPA ?</h4>
+      <span class="text-sologan">Car wash & detailling service</span>
+      <div class="container-info">
+        <div>
+          <img src="../images/bg-info.png" alt="bg-info">
+        </div>
+        <div>
+          <div class="row-1">
+            <p class="text-title__sub">Autospa Hand Wash is an eco-friendly, hand car wash and detailing service based in Portland. Our company was founded back in 2005 by a team of experts with more then 10 years of professional car wash experience. We operate three car washes throught Portland area. Our goal is to provide our customers with the friendliest, most convenient hand car wash experience possible. We use the most modern and up-to-date water reclamation modules as a part of our car wash systems. Our products are all biodegradable and eco-friendly.</p>
+          </div>
+          <div class="row-2">
+            <div class="row-2-sub">
+              <i class="fas fa-water"></i>
+              <h5 class="text-title__main">THE BEST CAR WASH</h5>
+              <ul class="text-title__sub">
+                <li>We offer multiple services at a great value</li>
+                <li>Multiple car wash locations throughout</li>
+                <li>Biodegradable and eco-friendly products</li>
+                <li>Pay for your wash electronically and securely</li>
+                <li>Trained and skilled car wash crew members</li>
+              </ul>
+            </div>
+            <div class="row-2-sub">
+              <i class="fas fa-comments"></i>
+              <h5 class="text-title__main">CONTACTING US</h5>
+              <ul class="text-title__sub">
+                <li>We offer multiple services at a great value</li>
+                <li>Multiple car wash locations throughout</li>
+                <li>Biodegradable and eco-friendly products</li>
+                <li>Pay for your wash electronically and securely</li>
+                <li>Trained and skilled car wash crew members</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="our-process">
+      <h3 class="text-title">OUR PROCESS</h3>
+      <span class="text-sologan">We know your time is valuable</span>
+      <div class="our-process__container">
+        <div class="icon-container">
+          <div class="icon-container__item">
+            <i class="far fa-circle icon-main">
+              <i class="far fa-check-circle icon-sub"></i>
+            </i>
+            <h3>1. BOOKING</h3>
+          </div>
+        </div>
+  
+        <div class="icon-container">
+          <div class="icon-container__item">
+            < class="far fa-circle icon-main">
+              <i class="fas fa-car-crash icon-sub"></i>
+            <h3>2. INSPECTION</h3>
+          </div>
+        </div>
+  
+        <div class="icon-container">
+          <div class="icon-container__item">
+            <i class="far fa-circle icon-main">
+              <i class="far fa-handshake icon-sub"></i>
+            <h3>3. VALUATION</h3>
+          </div>
+        </div>
+  
+        <div class="icon-container">
+          <div>
+            <i class="far fa-circle icon-main">
+              <i class="far fa-thumbs-up icon-sub"></i>
+            <h3>4. COMPLETION</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- VEHICLE -->
+    <section class="packages-main">
+      <h3 class="text-title">WASH PACKAGES</h3>
+      <span class="text-sologan">Which wash is the best for your vehicle?</span>
+
+      <ul class="vehicle-item-row">
+        <li class="vehicle-item-col">
+          <div class="vehicle-item__container">
+            <div class="vehicle-item__icon"><i class="fas fa-car-side"></i></div>
+            <div class="vehicle-item__text">Regular Size Car</div>
+          </div>
+        </li>
+
+        <li class="vehicle-item-col">
+          <div class="vehicle-item__container">
+            <div class="vehicle-item__icon"><i class="fas fa-truck"></i></div>
+            <div class="vehicle-item__text">Regular Size Car</div>
+          </div>
+        </li>
+
+        <li class="vehicle-item-col">
+          <div class="vehicle-item__container">
+            <div class="vehicle-item__icon"><i class="fas fa-truck-pickup"></i></div>
+            <div class="vehicle-item__text">Regular Size Car</div>
+          </div>
+        </li>
+
+        <li class="vehicle-item-col">
+          <div class="vehicle-item__container">
+            <div class="vehicle-item__icon"><i class="fas fa-truck-moving"></i></div>
+            <div class="vehicle-item__text">Regular Size Car</div>
+          </div>
+        </li>
+
+        <li class="vehicle-item-col">
+          <div class="vehicle-item__container">
+            <div class="vehicle-item__icon"><i class="fas fa-caravan"></i></div>
+            <div class="vehicle-item__text">Regular Size Car</div>
+          </div>
+        </li>
+
+        <li class="vehicle-item-col">
+          <div class="vehicle-item__container">
+            <div class="vehicle-item__icon"><i class="fas fa-truck-loading"></i></div>
+            <div class="vehicle-item__text">Regular Size Car</div>
+          </div>
+        </li>
+      </ul>
+    <!-- PACKAGES -->
+    <div class="packages-sub">
+      <div class="packages-item">
+          <h5 class="text-title__main">BASIC HAND WASH</h5>
+          <div class="packages-item__price">
+            <span>100.000</span>
+            <p>VND</p>
+          </div>
+          <div class="packages-item__duration text-title__sub">
+            <span>30</span>
+          </div>
+          <ul class="packages-item__service-list  text-title__sub">
+            <li>Exterior Hand Wash</li>
+            <li>Exterior Hand Wash</li>
+            <li>Exterior Hand Wash</li>
+            <li>Exterior Hand Wash</li>
+            <li>Exterior Hand Wash</li>
+            <li>Exterior Hand Wash</li>
+            <li>Exterior Hand Wash</li>
+            <li>Exterior Hand Wash</li>
+            <li>Exterior Hand Wash</li>
+            <li>Exterior Hand Wash</li>
+            <li>Exterior Hand Wash</li>
+            <li>Exterior Hand Wash</li>
+            <li>Exterior Hand Wash</li>
+            <li>Exterior Hand Wash</li>
+            <li>Exterior Hand Wash</li>
+            <li>Exterior Hand Wash</li>
+            <li>Exterior Hand Wash</li>
+            <li>Exterior Hand Wash</li>
+          </ul>
+      </div>
+
+      <div class="packages-item">
+        <h5 class="text-title__main">BASIC HAND WASH</h5>
+        <div class="packages-item__price">
+          <span>100.000</span>
+          <p>VND</p>
+        </div>
+        <div class="packages-item__duration text-title__sub">
+          <span>30</span>
+        </div>
+        <ul class="packages-item__service-list  text-title__sub">
+          <li>Exterior Hand Wash</li>
+          <li>Exterior Hand Wash</li>
+          <li>Exterior Hand Wash</li>
+          <li>Exterior Hand Wash</li>
+          <li>Exterior Hand Wash</li>
+          <li>Exterior Hand Wash</li>
+          <li>Exterior Hand Wash</li>
+          <li>Exterior Hand Wash</li>
+          <li>Exterior Hand Wash</li>
+          <li>Exterior Hand Wash</li>
+          <li>Exterior Hand Wash</li>
+          <li>Exterior Hand Wash</li>
+          <li>Exterior Hand Wash</li>
+          <li>Exterior Hand Wash</li>
+          <li>Exterior Hand Wash</li>
+          <li>Exterior Hand Wash</li>
+          <li>Exterior Hand Wash</li>
+          <li>Exterior Hand Wash</li>
+        </ul>
+      </div>
+
+      <div class="packages-item">
+        <h5 class="text-title__main">BASIC HAND WASH</h5>
+        <div class="packages-item__price">
+          <span>100.000</span>
+          <p>VND</p>
+        </div>
+        <div class="packages-item__duration text-title__sub">
+          <span>30</span>
+        </div>
+        <ul class="packages-item__service-list  text-title__sub">
+          <li>Exterior Hand Wash</li>
+          <li>Exterior Hand Wash</li>
+          <li>Exterior Hand Wash</li>
+          <li>Exterior Hand Wash</li>
+          <li>Exterior Hand Wash</li>
+          <li>Exterior Hand Wash</li>
+          <li>Exterior Hand Wash</li>
+          <li>Exterior Hand Wash</li>
+          <li>Exterior Hand Wash</li>
+          <li>Exterior Hand Wash</li>
+          <li>Exterior Hand Wash</li>
+          <li>Exterior Hand Wash</li>
+          <li>Exterior Hand Wash</li>
+          <li>Exterior Hand Wash</li>
+          <li>Exterior Hand Wash</li>
+          <li>Exterior Hand Wash</li>
+          <li>Exterior Hand Wash</li>
+          <li>Exterior Hand Wash</li>
+        </ul>
+      </div>
+
+      <div class="packages-item">
+        <h5 class="text-title__main">BASIC HAND WASH</h5>
+        <div class="packages-item__price">
+          <span>100.000</span>
+          <p>VND</p>
+        </div>
+        <div class="packages-item__duration text-title__sub">
+          <span>30</span>
+        </div>
+        <ul class="packages-item__service-list  text-title__sub">
+          <li>Exterior Hand Wash</li>
+          <li>Exterior Hand Wash</li>
+          <li>Exterior Hand Wash</li>
+          <li>Exterior Hand Wash</li>
+          <li>Exterior Hand Wash</li>
+          <li>Exterior Hand Wash</li>
+          <li>Exterior Hand Wash</li>
+          <li>Exterior Hand Wash</li>
+          <li>Exterior Hand Wash</li>
+          <li>Exterior Hand Wash</li>
+          <li>Exterior Hand Wash</li>
+          <li>Exterior Hand Wash</li>
+          <li>Exterior Hand Wash</li>
+          <li>Exterior Hand Wash</li>
+          <li>Exterior Hand Wash</li>
+          <li>Exterior Hand Wash</li>
+          <li>Exterior Hand Wash</li>
+          <li>Exterior Hand Wash</li>
+        </ul>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <div class="background">
       <div class="background__text-box">
         <h3 class="heading-primary">
           <span class="heading-primary--main">Cửa hàng sách </span>
@@ -99,7 +361,7 @@
               <a href="#"><i class="fab fa-line"></i></a>
             </li>
           </ul>
-        </div>
+        </div> -->
         <div class="footer-container__info">
           <h2>Contact Us</h2>
           <ul class="footer-container__info--item">
@@ -132,79 +394,8 @@
           ></iframe>
         </div>
       </div>
-      <!-- VEHICLE -->
-      <section class="packages-main">
-            <ul class="vehicle-item-row">
-              <li class="vehicle-item-col">
-                <div class="vehicle-item__container">
-                  <div class="vehicle-item__icon"><i class="fas fa-truck"></i></div>
-                  <div class="vehicle-item__text">Regular Size Car</div>
-                </div>
-              </li>
-
-              <li class="vehicle-item-col">
-                <div class="vehicle-item__container">
-                  <div class="vehicle-item__icon"><i class="fas fa-truck"></i></div>
-                  <div class="vehicle-item__text">Regular Size Car</div>
-                </div>
-              </li>
-
-              <li class="vehicle-item-col">
-                <div class="vehicle-item__container">
-                  <div class="vehicle-item__icon"><i class="fas fa-truck"></i></div>
-                  <div class="vehicle-item__text">Regular Size Car</div>
-                </div>
-              </li>
-
-              <li class="vehicle-item-col">
-                <div class="vehicle-item__container">
-                  <div class="vehicle-item__icon"><i class="fas fa-truck"></i></div>
-                  <div class="vehicle-item__text">Regular Size Car</div>
-                </div>
-              </li>
-
-              <li class="vehicle-item-col">
-                <div class="vehicle-item__container">
-                  <div class="vehicle-item__icon"><i class="fas fa-truck"></i></div>
-                  <div class="vehicle-item__text">Regular Size Car</div>
-                </div>
-              </li>
-
-              <li class="vehicle-item-col">
-                <div class="vehicle-item__container">
-                  <div class="vehicle-item__icon"><i class="fas fa-truck"></i></div>
-                  <div class="vehicle-item__text">Regular Size Car</div>
-                </div>
-              </li>
-            </ul>
-          <!-- PACKAGES -->
-          <div class="packages-sub">
-            <div class="packages-item">
-                <h5>BASIC HAND WASH</h5>
-                <div class="packages-item__price">
-                  <span>$</span>
-                  <span>15</span>
-                  <span>95</span>
-                </div>
-                <div class="packages-item__duration">
-                  <span></span>
-                </div>
-                <ul class="packages-item__service-list">
-                  <li>Exterior Hand Wash</li>
-                  <li>Exterior Hand Wash</li>
-                  <li>Exterior Hand Wash</li>
-                  <li>Exterior Hand Wash</li>
-                  <li>Exterior Hand Wash</li>
-                  <li>Exterior Hand Wash</li>
-                </ul>
-            </div>
-            <div class="class-packages__sub--items"></div>
-            <div class="class-packages__sub--items"></div>
-            <div class="class-packages__sub--items"></div>
-          </div>
-      </section>
+      
     </footer>
     <div class="coppy">coppywriter @ 2021 Võ Ngô Văn Tiền</div>
-    <script src="script/script.js"></script>
   </body>
 </html>

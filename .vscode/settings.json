@@ -1,12 +1,5 @@
- {
- // Set the font
- "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace",
- // Set the font size
- "editor.fontSize": 16,
- // Turn on font ligatures
- "editor.fontLigatures": true,
- // Set letter spacing
- "editor.letterSpacing": 0.4,
- // Enable smooth scrolling in the editor
- "editor.smoothScrolling": true,
- }
+{
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveServer.settings.useLocalIp": true,
+    "liveServer.settings.donotShowInfoMsg": true
+}
