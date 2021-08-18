@@ -1,5 +1,6 @@
 {
-    "liveServer.settings.CustomBrowser": "chrome",
-    "liveServer.settings.useLocalIp": true,
-    "liveServer.settings.donotShowInfoMsg": true
+  "liveServer.settings.ChromeDebuggingAttachment": false,
+  "files.autoSave": "afterDelay",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true
 }
