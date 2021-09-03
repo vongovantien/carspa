@@ -1,38 +1,4 @@
 @import "_reset.css";
-
-/* --------------------------------CSS BACKGROUND-------------------------------------- */
-.background-main{
-  height: 1000px;
-  position: relative;
-  background-image: url("../images/wash-a-car-1822415_1920.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  clip-path: ellipse(60% 71% at 50% 15%);
-}
-
-.heading-text--main {
-  position: absolute;
-  top: 30%;
-  left: 30%;
-  transform: translate(-50%, -50%);
-  color: white;
-  display: block;
-  font-size: 50px;
-  letter-spacing: 10px;
-  animation: moveInUp 3s infinite;
-}
-
-@keyframes moveInUp {
-  0% {
-    opacity: 0;
-    transform: translateY(500px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0px);
-  }
-}
 /* CSS INFORMATION */
 
 .section-info {
@@ -202,8 +168,19 @@
   padding: 20px;
 }
 /* CSS FOOTER */
-footer {
+.btn {
+  background-color: antiquewhite;
+  border-radius: 50px;
+  color: #494949;
 }
+.btn, 
+.btn:active, .btn:focus {
+    border: none;     
+    outline: 0;     
+    outline-style: none;     
+    outline-width: 0; 
+}
+
 .activity {
   margin: 100px 0;
   display: flex;
